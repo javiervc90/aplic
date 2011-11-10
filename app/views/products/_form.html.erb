@@ -11,18 +11,20 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :title %><br />
+    <div class="field">
+    <%= f.label :Numero_de_cuenta %><br />
+    <%= f.text_field :cuenta %>
+  </div>
+
+    <div class="field">
+    <%= f.label :Nombre %><br />
     <%= f.text_field :title %>
   </div>
   <div class="field">
     <%= f.label :description %><br />
     <%= f.text_field :description, :rows => 6 %>
   </div>
-  <!--<div class="field">
-    <%= f.label :image_url %><br />
-    <%= f.text_field :image_url %>
-  </div>  -->
+
   <div class="field">
     <%= f.label :price %><br />
     <%= f.text_field :price %>
